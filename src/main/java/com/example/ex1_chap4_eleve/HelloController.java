@@ -14,6 +14,7 @@ public class HelloController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         Eleve e1 = new Eleve("Erwan");
+        Eleve e2 = new Eleve("Florent");
         e1.ajouterNote(15);
         e1.ajouterNote(18);
         e1.ajouterNote(-2);
